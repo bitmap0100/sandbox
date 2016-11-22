@@ -1,0 +1,23 @@
+Git Notes
+----------------------------------------------
+git config --global user.name "bitmap0100"
+git config --global user.email honolulusimplytutor@gmail.com
+git status -s
+git add *
+$ git commit -m "Story 182: Fix benchmarks for speed"
+$ git commit -a -m 'added new benchmarks'
+git remote -v
+$ git fetch [remote-name]
+$ git push origin master
+
+If you and someone else clone at the same time and they push upstream and then you push upstream, your push will rightly be rejected. You’ll have to fetch their work first and incorporate it into yours before you’ll be allowed to push. See Git Branching for more detailed information on how to push to remote servers.
+
+git config --global credential.helper "cache --timeout=36000"
+
+
+
+
+
+Git resources
+----------------------------------------------
+
