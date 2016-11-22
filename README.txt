@@ -1,2 +1,2 @@
 sandbox project
-Server
+That is how you resolve a conflict
